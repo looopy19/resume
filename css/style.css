@@ -32,6 +32,13 @@ body {
   width: 370px;
 }
 
+.contacts-icon {
+    height: 20px;
+    width: 20px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .about-me-container {
   padding-left: 90px;
   padding-right: 90px;
@@ -58,6 +65,12 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: #48515e;
+  text-decoration: none;
+}
+
+.contacts-link:hover {
+color: #ff6b08;
+
 }
 
 .contacts-link-type {
@@ -66,6 +79,22 @@ body {
   line-height: 24px;
   color: white;
   margin-right: 10px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+ a:hover img{
+transform: scale(1.2);
+transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .tech-skills-title {
@@ -94,13 +123,15 @@ body {
   color: #c6c8cc;
 }
 
-.soft-skills-container {
+.soft-skills-container,
+.languages-container {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 55px;
 }
 
-.soft-skills-title {
+.soft-skills-title,
+.languages-title {
   color: #ffffff;
   font-size: 22px;
   font-weight: 700;
@@ -108,7 +139,8 @@ body {
   margin-bottom: 20px;
 }
 
-.soft-skills-item {
+.soft-skills-item,
+.languages-item {
   color: #ff6b08;
   font-size: 14px;
   font-weight: 400;
@@ -116,7 +148,8 @@ body {
   margin-left: 15px;
 }
 
-.soft-skills-text {
+.soft-skills-text,
+.languages-text {
   color: #c6c8cc;
 }
 
@@ -184,6 +217,8 @@ body {
 
 .profession-company {
   color: #ff6b09;
+  font-size: 14px;
+
 }
 
 .profession-time {

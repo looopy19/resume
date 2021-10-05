@@ -14,21 +14,31 @@
     <!--Main Container-->
     <div class="wrapper">
       <aside class="sidebar">
-        <img class="my-photo" src="./img/photo.jpg" alt="my photo" />
+        <img class="my-photo" src="./img/photo2.jpg" alt="my photo" />
 
         <!-- contacts container -->
         <div class="contacts-container">
           <h3 class="contacts-title">Contacts</h3>
           <div>
-            <span class="contacts-link-type">C:</span>
-            <a class="contacts-link" href="tel:+3725247775">+372 5247775</a>
+            <li class="contacts-link-type">
+                <a href="mailto:looopy19@gmail.com" class="contacts-link"
+                  >looopy19@gmail.com</a
+                >
+              </li>
+              <li class="contacts-link-type">
+                <a href="tel:+3725247775" class="contacts-link"
+                  >+3725247775</a
+                >
+              </li>
           </div>
-          <div>
-            <span class="contacts-link-type">E:</span>
-            <a class="contacts-link" href="mailto:looopy19@gmail.com"
-              >looopy19@gmail.com</a
-            >
-          </div>
+          <ul class="social-list">
+            <li class="social-link">
+              <a href="https://www.linkedin.com/in/olga-%C5%A1alimova-67b55a204" target="_blank"><img class="icon" src="./img/icons8-linkedin-48.png" alt="linkedin"></a>
+            </li>
+            <li>
+              <a href="https://github.com/looopy19" target="_blank"><img class="icon" src="./img/icons8-github-48.png" alt="github"></a>
+            </li>
+          </ul>
         </div>
 
         <!--Tech Skills container-->
@@ -39,13 +49,13 @@
               <span class="tech-skills-text">HTML5</span>
             </li>
             <li class="tech-skills-item">
-              <span class="tech-skills-text">CSS5</span>
+              <span class="tech-skills-text">CSS5/SASS</span>
             </li>
             <li class="tech-skills-item">
               <span class="tech-skills-text">GIT</span>
             </li>
             <li class="tech-skills-item">
-              <span class="tech-skills-text">WebPack</span>
+              <span class="tech-skills-text">Parcel/WebPack</span>
             </li>
             <li class="tech-skills-item">
               <span class="tech-skills-text">JavaScript</span>
@@ -54,7 +64,7 @@
               <span class="tech-skills-text">React.js</span>
             </li>
             <li class="tech-skills-item">
-              <span class="tech-skills-text">Node.js</span>
+              <span class="tech-skills-text">Node.js(in progress)</span>
             </li>
           </ul>
         </div>
@@ -70,11 +80,31 @@
               <span class="soft-skills-text">Agile</span>
             </li>
             <li class="soft-skills-item">
-              <span class="soft-skills-text">GTD</span>
+              <span class="soft-skills-text">Adaptability</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Fast Learner</span>
             </li>
             <li class="soft-skills-item">
               <span class="soft-skills-text">Teamwork</span>
             </li>
+          </ul>
+        </div>
+        <!--Languages container-->
+        <!--Soft Skills container-->
+        <div class="languages-container">
+          <h3 class="languages-title">Languages</h3>
+          <ul>
+            <li class="languages-item">
+              <span class="languages-text">Estonian - upper-intermediate</span>
+            </li>
+            <li class="languages-item">
+              <span class="languages-text">English - upper-intermediate</span>
+            </li>
+            <li class="languages-item">
+              <span class="languages-text">Russian - native</span>
+            </li>
+        
           </ul>
         </div>
       </aside>
@@ -82,13 +112,13 @@
       <div class="about-me-container">
         <!--About me main info-->
         <div class="info-container">
-          <h2 class="profession">Front-End Developer</h2>
-          <h1 class="name">Olga Salimova</h1>
+          <h2 class="profession">Front-End Developer | React</h2>
+          <h1 class="name">Olga &Scaron;alimova</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.
+            I am a curious and passionate Junior Frontend developer looking for
+            an internship or an entry-level full-time position in a company, to
+            use and improve my coding skills. I have hands-on experience of
+            using HTML, CSS, JS, React and Agile/Scrum methodology.
           </p>
         </div>
 
@@ -97,8 +127,10 @@
           <h3 class="about-me-title">Projects</h3>
           <ol>
             <li class="project-item">
-              <a class="projects-link" href="https://lovecamp.goit.ua/"
-                >https://lovecamp.goit.ua/</a
+              <a
+                class="projects-link"
+                href="https://looopy19.github.io/goit-markup-hw-08/"
+                >Page for web studio</a
               >
               <span class="dots">..........................</span>
               <span
@@ -106,8 +138,22 @@
               </span>
             </li>
             <li class="project-item">
-              <a class="projects-link" href="https://cryptohub.goit.ua/"
-                >https://cryptohub.goit.ua/</a
+              <a
+                class="projects-link"
+                href="https://ekaterina-lavrinenko.github.io/parcel-project/"
+                >Landing page for english school (team project)</a
+              >
+              <span class="dots">.........................</span>
+              <span
+                ><b>[</b><span class="tech-name">HTML5, CSS3</span
+                ><b>]</b></span
+              >
+            </li>
+            <li class="project-item">
+              <a
+                class="projects-link"
+                href="https://vladhorii.github.io/filmoteka-team-proj/"
+                >Filmoteka (team project)</a
               >
               <span class="dots">.........................</span>
               <span
@@ -115,14 +161,13 @@
               >
             </li>
             <li class="project-item">
-              <a class="projects-link" href="https://kidslike.goit.co.ua/"
-                >https://kidslike.goit.co.ua/</a
+              <a
+                class="projects-link"
+                href="https://looopy19-goit-react-hw-05-movies.netlify.app/"
+                >Movies</a
               >
               <span class="dots">.........................</span>
-              <span
-                ><b>[</b><span class="tech-name">React.js, Node.js</span
-                ><b>]</b></span
-              >
+              <span><b>[</b><span class="tech-name">React</span><b>]</b></span>
             </li>
           </ol>
         </div>
@@ -130,76 +175,51 @@
         <!-- work experience -->
         <div>
           <h3 class="about-me-title">Work Experience</h3>
-          <!-- company 1-->
-          <div>
-            <h4 class="profession-title">
-              Front-End Developer
-              <span class="profession-company">Freelance</span>
-            </h4>
-            <span class="profession-time">
-              September 2019 - up to now
-              <span class="profession-devider">|</span> Ukraine
-            </span>
 
-            <ul class="profession-duties">
-              <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
-              </li>
-              <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
-              </li>
-              <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
-              </li>
-              <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
-              </li>
-              <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
-              </li>
-            </ul>
-          </div>
           <!-- company 2-->
           <div>
             <h4 class="profession-title">
-              Manager <span class="profession-company">Roga & Kopyta New</span>
+              Senior Cashier<br />
+              <span class="profession-company"
+                >Apranga Estonia OÜ | Zara Store</span
+              >
             </h4>
-            <span class="profession-time"
-              >March 2015 - October 2018
-              <span class="profession-devider">|</span> Ukraine
+            <span class="profession-time"></span>
+              February 2017 - September 2017
+              <span class="profession-devider">|</span> Estonia, Tallinn
             </span>
 
             <ul class="profession-duties">
               <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
+                Manage customer transactions both cash and card payments
               </li>
               <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
+                Generate cash and card related documents and account reports
               </li>
               <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
+                Ensure that merchandise are properly displayed, stocked and
+                labeled
               </li>
             </ul>
           </div>
           <!-- company 3-->
           <div>
             <h4 class="profession-title">
-              Manager <span class="profession-company">Roga & Kopyta LLC</span>
+              Department manager assistant<br />
+              <span class="profession-company"
+                >Apranga Estonia OÜ | Zara Store</span
+              >
             </h4>
             <span class="profession-time"
-              >June 2014 - February 2015
-              <span class="profession-devider">|</span> Ukraine
+              >August 2012 - February 2017
+              <span class="profession-devider">|</span> Estonia, Tallinn
             </span>
             <ul class="profession-duties">
               <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
+                Assistant routine on a daily basis
               </li>
-              <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
-              </li>
-              <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet.
-              </li>
+              <li class="profession-duties-item">Teaching onboarding staff</li>
+              <li class="profession-duties-item">Customer service</li>
             </ul>
           </div>
         </div>
@@ -207,14 +227,24 @@
         <div>
           <h3 class="about-me-title">Education</h3>
           <div>
+            <h4 class="education-place">IT school Goit</h4>
+            <div>
+              <h5 class="education-type">Full Stack Developement</h5>
+              <span class="profession-time"
+                >November 2020 - November 2021
+                <span class="profession-devider">|</span> Online</span
+              >
+            </div>
+          </div>
+          <div>
             <h4 class="education-place">
-              Kharkiv National University of Radioelectronics
+              Narva Vocational Training Center (NVTC)
             </h4>
             <div>
-              <h5 class="education-type">Management</h5>
+              <h5 class="education-type">Multimedia | Web-development</h5>
               <span class="profession-time"
-                >September 2009 - June 2014
-                <span class="profession-devider">|</span> Ukraine</span
+                >September 2009 - June 2011
+                <span class="profession-devider">|</span> Estonia, Narva</span
               >
             </div>
           </div>
